@@ -1,4 +1,4 @@
-'''My first Python program in VS Code for COMP110'''
+"""My first program in VSCode for COMP110!"""
 
 __author__ = '730506302'
 
