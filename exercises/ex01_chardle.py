@@ -7,7 +7,7 @@ word: str = input("Enter a 5-character word: ")
 if len(word) == 5:
 
     char: str = input("Enter a single character: ")
-    
+
     if len(char) == 1:
 
         print("Searching for", char, "in", word)
@@ -47,4 +47,3 @@ if len(word) == 5:
 else:
     print("Error: Word must contain 5 characters")
     exit()
-
