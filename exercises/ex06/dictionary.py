@@ -28,7 +28,7 @@ def count(input_list: list[str]) -> dict[str, int]:
 def favorite_color(input_dict: dict[str, str]) -> str:
     """Returns a dictionary with unique elements from a list and the number of times they appear."""
     result: str = ""
-    highest: int  = -1
+    highest: int = -1
     for key1 in input_dict:
         counter: int = 0
         for key2 in input_dict:
